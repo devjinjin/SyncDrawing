@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.syncdrawing.MainActivity" >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_filter1"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="1"/>
+    <item
+        android:id="@+id/action_filter2"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="2"/>
+    <item
+        android:id="@+id/action_filter3"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="3"/>
+
+    <item
+        android:id="@+id/action_filter4"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="4"/>
+    <item
+        android:id="@+id/action_filter5"
+        android:orderInCategory="105"
+        android:showAsAction="never"
+        android:title="5"/>
+    <item
+        android:id="@+id/action_filter6"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="6"/>
+
+</menu>

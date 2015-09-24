@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <attr name="fromDegrees" format="float|reference" />
+    <attr name="toDegrees" format="float|reference" />
+    <attr name="childSize" format="dimension|reference" />
+
+    <declare-styleable name="ArcLayout">
+        <attr name="fromDegrees" />
+        <attr name="toDegrees" />
+        <attr name="childSize" />
+    </declare-styleable>
+    <declare-styleable name="ArcMenu">
+        <attr name="fromDegrees" />
+        <attr name="toDegrees" />
+        <attr name="childSize" />
+    </declare-styleable>
+    <declare-styleable name="RayLayout">
+        <attr name="leftHolderWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="InkView"><!-- Feature flags for InkView. Defaults to "interpolation|responsiveWeight" -->
+        <attr name="inkFlags">
+
+            <!-- No features turned on -->
+            <flag name="none" value="0" />
+            <!-- Interpolate paths as cubic-bezier curves -->
+            <flag name="interpolation" value="1" />
+            <!-- Stroke width changes in response to velocity -->
+            <flag name="responsiveWeight" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
